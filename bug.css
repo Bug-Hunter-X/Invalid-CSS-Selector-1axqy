@@ -1,0 +1,10 @@
+The following CSS code uses an invalid selector that causes unexpected behavior or errors in the browser's rendering engine.
+```css
+.invalid-selector { /* some styles */ }
+```
+This selector is invalid, because it is missing the element to select.
+In this case, the correct selector should select an actual element in the HTML. For example:
+```css
+div.invalid-selector { /* some styles */ }
+```
+This selector correctly selects all the div elements with the class name "invalid-selector".
